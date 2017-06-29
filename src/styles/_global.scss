@@ -1,0 +1,58 @@
+﻿//
+// Base
+// --------------------------------------------------
+
+body {
+  color: #333;
+  background-color: #fff;
+  // background-color: #000;
+  font: 13px/1.5 "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  &.detail {
+    background-color: #fff;
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: 1em;
+}
+
+p {
+  margin: 0;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+dl, dd {
+  margin: 0;
+}
+
+small {
+  font-size: 100%;
+}
+
+em {
+  font-style: normal;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}

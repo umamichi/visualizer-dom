@@ -1,0 +1,33 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    // 一行当たりの最大文字数を定義しない
+    "max-len": 0,
+    // console.logを許可する
+    "no-console": 0,
+    // コメントアウトの//の後のスペースを必須としない
+    "spaced-comment": 0,
+    // 代入せずにnewすることを許可する
+    "no-new": 0,
+    // 変数名の頭にアンダースコアをつけることを許可する
+    "no-underscore-dangle": 0,
+    // 配列やオブジェクトの最後のアイテムに,を加える事を必須としない
+    "comma-dangle": 0,
+    // hoge && console.log(hoge);みたいな構文を許可する
+    "no-unused-expressions": 0,
+    // 複数行並ぶ文字を合わせたいのでスペースが連続するのを許可する
+    "no-multi-spaces": 0,
+    "space-in-parens": 0,
+    // 引数の変数に変更を加えることを許可する
+    "no-param-reassign": 0,
+    // 関数宣言をファイルの最後で行うことを許可する
+    "no-use-before-define": 0,
+    // 無名関数を許可する
+    "func-names": 0,
+
+    // msxを使っているときにエラーが出ないようにする
+    "react/react-in-jsx-scope": 0,
+    "no-trailing-spaces": 0,
+    "padded-blocks": 0
+  }
+}

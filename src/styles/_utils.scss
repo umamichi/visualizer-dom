@@ -1,0 +1,31 @@
+﻿//
+// Utils
+// --------------------------------------------------
+
+// variable
+// -------------------------
+
+// color
+
+
+// extend
+// -------------------------
+
+// clearfix
+%clearfix {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// responsive image
+%resImg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja" id="html">
+  <head>
+    <title>Visualizer</title>
+  </head>
+  <style>
+  h1 {
+    font-size: 20px;
+    height:10px
+  }
+  #area_div {
+    position: relative;
+    height: 600px;
+  }
+  #wrap {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  #wrap div {
+    display: inline-block;
+    width: 10px;
+    margin-right: 5px;
+    background: -moz-linear-gradient(left top, #990, #c36 30%, #f60 50%, #000 70%, #066);
+    background: -webkit-gradient(linear, left top, right bottom, from(#87CEFA), color-stop(0.3, #FFD700), color-stop(0.5, #f60), color-stop(0.7, #DC143C), to(#000));
+  }
+  </style>
+  <body>
+    <main>
+		<div id="area_div">
+			<div id="wrap"></div>
+		</div>
+	</main>
+    <%- include('_componets/_script') %>
+  </body>
+</html>
