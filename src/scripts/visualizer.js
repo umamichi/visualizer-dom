@@ -56,7 +56,6 @@ export default function visualizer() {
     // 音声データを取得したら実行
     audioSource.then((stream) => {
       const source = audioContext.createMediaStreamSource(stream);
-      console.log(source);
       // analyser.frequencyBinCount はfftSizeの半分
       spectrum = new Uint8Array(analyser.frequencyBinCount);
       // sourceをanalyserに接続
